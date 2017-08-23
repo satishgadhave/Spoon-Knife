@@ -2,8 +2,10 @@ pipeline {
     agent any
   
     stages {
-        steps {
-            sh 'echo "executing shell script"'
+        stage {
+            steps {
+                sh 'echo "executing shell script"'
+            }
         }
     }
     node {
