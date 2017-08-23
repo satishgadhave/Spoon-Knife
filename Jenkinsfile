@@ -3,8 +3,8 @@ pipeline {
   
     stages {
         steps {
-            #!/bin/sh
-            echo "executing shell script"
+            sh '#!/bin/sh
+            echo "executing shell script"'
         }
     }
     node {
